@@ -4,6 +4,7 @@ maior = 0
 pos = 0
 
 for i in range(len(numeros)):
+    print("Na posicao: ", i, ", esta o valor: ", numeros[i])
     if numeros[i] > maior:
         maior = numeros[i]
         pos = i

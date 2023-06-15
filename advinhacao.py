@@ -17,7 +17,7 @@ for i in range(3): #o loop se repete 3 vezes, de 0 ate 2
 
     if i == 2: #2 é o final do loop, coloquei essa condicao aqui pra mostrar a msg que acabou o jogo
         print("Errou. Fim de jogo")
-        break # para encerrar o programa e nao seguir lendo as linhas de baixo
+        break # para encerrar o loop e nao seguir lendo as linhas de baixo
 
     if guess == segredo:
         print("Parabéns, vc adivinhou! O número: ", guess)

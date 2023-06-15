@@ -33,7 +33,7 @@ print(lista2)
 numeros = [1, 22, 3, 42, 5]
 
 for i in range(len(numeros)): # com esse for (range) é possivel acessar e modificar valores da lista
-    print ("i vale:" ,i)
+    print ("i vale:", i)
     print(numeros[i])
 
 for i in range(len(numeros)):

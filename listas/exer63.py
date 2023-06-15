@@ -1,4 +1,3 @@
-#descobrir o maior valor e sua posicao numa lista.
 #diferenca entre os tipo de for
 
 numeros=[0,1,2,3,4,5,6]

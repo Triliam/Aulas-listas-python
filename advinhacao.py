@@ -30,18 +30,18 @@ print("o num eh: ", segredo)
  #sem tirar tentativa qnd numero invalido e contador no while
 tentativas = 3
 while(tentativas != 0):
-    print("Essa é a tentativa: ", tentativas)
+    print("Iniciando tentativas, total de : ", tentativas, " tentativas")
     adv = int(input("Adivinhe o num de 1 até 13: "))
-
-    if tentativas == 0:
-        print("Fim de jogo")
-        break
 
     if adv <= 0 or adv > 13:
         print("num invalido")
         #se tivesse colocado tentativas -=1 aqui, dai sim tiraria uma tentativa das 3, pq while verifica antes de tirar, for segue o loop sem verificar
         continue
-    
+
+    if tentativas == 1:
+            print("Fim de jogo")
+            break
+        
     if adv == segredo:
         print("Acertou miseravi")
         break

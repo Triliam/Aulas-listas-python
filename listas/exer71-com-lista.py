@@ -7,7 +7,7 @@ lista = []
 for i in range (0, qtd):
     print(primeiroTermo)
     lista.append(primeiroTermo)
-    primeiroTermo = primeiroTermo * 2 #usando a mesma logica  do exercicio 64, mas agora numa PG
+    primeiroTermo = primeiroTermo * razao #usando a mesma logica  do exercicio 64, mas agora numa PG
   
 print(lista)
 
